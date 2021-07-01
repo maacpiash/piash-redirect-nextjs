@@ -2,13 +2,13 @@ module.exports = async function redirects() {
   return [
     {
       source: '/resume',
-      destination: 'https://github.com/maacpiash/static/raw/master/ahadc-resume.pdf',
+      destination: 'https://github.com/maacpiash/static/raw/master/ahad-resume.pdf',
       permanent: true,
       basePath: false,
     },
     {
       source: '/cv',
-      destination: 'https://github.com/maacpiash/static/raw/master/ahadc-resume.pdf',
+      destination: 'https://github.com/maacpiash/static/raw/master/ahad-resume.pdf',
       permanent: true,
       basePath: false,
     },
@@ -182,6 +182,12 @@ module.exports = async function redirects() {
     },
     {
       source: '/portfolio',
+      destination: 'https://www.maacpiash.com',
+      permanent: true,
+      basePath: false,
+    },
+    {
+      source: '/website',
       destination: 'https://www.maacpiash.com',
       permanent: true,
       basePath: false,

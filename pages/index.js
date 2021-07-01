@@ -35,7 +35,7 @@ export default function Home() {
           <Card title="Other links" values={['linkedin', 'kaggle', 'stack-overflow']} />
           <Card title="Social" values={['fb', 'ig', 'tw']} />
           <Card title="Contact" values={['email', 'skype', 'tg']} />
-          <Card title="Support me" values={['gh-sponsor', 'patreon', 'paypal', 'coffee']} />
+          <Card title="Support me" values={['gh-sponsors', 'patreon', 'paypal', 'coffee']} />
         </div>
       </main>
 
