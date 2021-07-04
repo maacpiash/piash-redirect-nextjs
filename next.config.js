@@ -1,6 +1,12 @@
-const redirects = require('./data/redirects')
-
 module.exports = {
   reactStrictMode: true,
-  redirects,
+  async redirects() {
+    return [
+      {
+        source: '/:ShortKey',
+        destination: '/api/redirects/:ShortKey',
+        permanent: true,
+      }
+    ]
+  }
 }
