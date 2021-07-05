@@ -8,9 +8,9 @@ const handler = nextConnect()
 handler.use(dbMiddleware)
 
 handler.get(async (req, res) => {
-  const { ShortKey } = req.query
+  const { shortcut } = req.query
   const result = await req.db.collection(COLLECTION_NAME)
-    .findOne({ ShortKey })
+    .findOne({ ShortKey: shortcut })
   return res.redirect((result && result.RealUrl) || FALLBACK_URL)
 })
 

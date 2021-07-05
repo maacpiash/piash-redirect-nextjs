@@ -3,16 +3,16 @@ module.exports = {
   async redirects() {
     return [
       {
-        source: '/:ShortKey',
-        destination: '/api/redirects/:ShortKey',
+        source: '/:shortcut',
+        destination: '/api/redirects/:shortcut',
         permanent: true,
       },
-      {
-        source: '/gh/:repo',
-        destination: 'https://github.com/maacpiash/:repo',
-        permanent: true,
-        basePath: false,
-      },
+      // {
+      //   source: '/gh/:repo',
+      //   destination: 'https://github.com/maacpiash/:repo',
+      //   permanent: true,
+      //   basePath: false,
+      // },
     ]
   }
 }
