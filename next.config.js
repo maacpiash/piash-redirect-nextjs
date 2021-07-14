@@ -7,12 +7,12 @@ module.exports = {
         destination: '/api/redirects/:shortcut',
         permanent: true,
       },
-      // {
-      //   source: '/gh/:repo',
-      //   destination: 'https://github.com/maacpiash/:repo',
-      //   permanent: true,
-      //   basePath: false,
-      // },
+      {
+        source: '/gh/:repo',
+        destination: 'https://github.com/maacpiash/:repo',
+        permanent: true,
+        basePath: false,
+      },
     ]
   }
 }
