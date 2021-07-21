@@ -34,3 +34,9 @@
   font-family: Fantasque Sans Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
+
+@media only screen and (max-width: 600px) {
+  .card {
+    border: none;
+  }
+}
