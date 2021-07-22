@@ -1,6 +1,4 @@
-# The URL shortener of [`pia.sh`](https://pia.sh)
-
-![GitHub branch checks state](https://img.shields.io/github/checks-status/maacpiash/piash-redirect-nextjs/main?label=deployment&logo=github&style=flat-square)
+# The URL shortener of [pia.sh](https://pia.sh) · ![GitHub branch checks state](https://img.shields.io/github/checks-status/maacpiash/piash-redirect-nextjs/main?label=deployment&logo=github&style=flat-square)
 </div>
 
 ## 🖥 Technology Stack
