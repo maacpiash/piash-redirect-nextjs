@@ -3,30 +3,31 @@ import styles from '../styles/Home.module.css'
 import Card from '../components/Card'
 
 export default function Home() {
+  const { container, main, title, description, code, grid, footer } = styles
   return (
-    <div className={styles.container}>
+    <div className={container}>
       <Head>
         <title>The URL shortener of Ahad Chowdhury</title>
         <meta name="description" content="The URL shortener of Ahad Chowdhury" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h2 className={styles.title}>
+      <main className={main}>
+        <h2 className={title}>
           The URL shortener of <a href="https://www.maacpiash.com">
             <code className={styles.code}>maacpiash</code></a>
         </h2>
 
-        <p className={styles.description}>
+        <p className={description}>
           Source code is available at
           <a href="/src">
-            <code className={styles.code}>
+            <code className={code}>
               pia.sh/src
             </code>
           </a>
         </p>
 
-        <div className={styles.grid}>
+        <div className={grid}>
           <Card title="Resume" values={['resume', 'cv']} />
           <Card title="Website" values={['website', 'portfolio']} />
           <Card title="GitHub" values={['gh', 'github']} />
@@ -39,7 +40,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={footer}>
         <a
           href="https://www.maacpiash.com"
           target="_blank"
