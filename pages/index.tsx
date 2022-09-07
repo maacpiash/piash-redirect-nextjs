@@ -46,7 +46,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Copyright &copy; 2021 Mohammad Abdul Ahad Chowdhury.
+          Copyright &copy; 2021 – 2022 Mohammad Abdul Ahad Chowdhury.
         </a>
       </footer>
     </div>
