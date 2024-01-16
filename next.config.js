@@ -13,6 +13,12 @@ module.exports = {
         permanent: true,
         basePath: false,
       },
+      {
+        source: '/resume',
+        destination: 'https://github.com/maacpiash/static/releases/latest/download/ahad-resume-2024.pdf',
+        permanent: true,
+        basePath: false,
+      },
     ]
   }
 }
